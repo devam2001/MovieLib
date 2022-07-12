@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Lib</title>
+    <link rel = "stylesheet" href = "style1.css">
+    <link rel = "stylesheet" href = "signinon.css">
+
+</head>
+<body>
+    
+    <div class = "wrapper">
+        <div class = "logo">
+            <div class = "container">
+                <p>Movie<span>Lib</span></p>
+            </div>
+            <div class="flex">
+                <ul class="primary">
+                    <div>
+                        <li><a href="/signup">Sign On</a></li>
+                    </div>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class = "search-container">
+            <div class = "search-element">
+                <h3>Search Movie:</h3>
+                <input type = "text" class = "form-control" placeholder="Search Movie Title ..." id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+
+                <div class = "search-list" id = "search-list">
+                    <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- movie app js -->
+    <script src = "script.js"></script>
+</body>
+</html>
